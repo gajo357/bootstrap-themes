@@ -259,13 +259,6 @@
 .form-control:focus {
   border-color: $blue !important;
 }
-.form-control,
-.custom-select,
-.custom-file > .custom-file-label {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-}
 select.form-control > option:checked,
 .custom-select > option:checked {
   background-color: $blue;
@@ -286,6 +279,7 @@ select.form-control > option:checked,
   background-color: $cyan;
   background-clip: padding-box;
   border: $input-border-width solid $input-border-color;
+  border-left: 0;
   margin-right: 0;
   margin-left: 0;
 }
